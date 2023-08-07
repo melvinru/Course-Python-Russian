@@ -1,7 +1,1 @@
-print('*')
-print('**')
-print('***')
-print('****')
-print('*****')
-print('******')
-print('*******')
+# put your asm64 code here

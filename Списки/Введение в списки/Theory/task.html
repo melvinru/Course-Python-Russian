@@ -57,7 +57,7 @@ languages = ['Python', 'C#', 'C++', 'Java']</code></pre>
 	<li><code>info[2] == 61.5.</code></li>
 </ul>
 
-<p> <img alt="" height="50" src="https://ucarecdn.com/fb84d0ed-79d9-4e6a-a7d5-1e7d57e1cc36/" style="float: left;" width="45">Обычно элементы списка содержат данные одного типа и на практике редко приходится создавать списки содержащие элементы разных типов данных.</p>
+<p><img alt="" height="50" src="https://ucarecdn.com/fb84d0ed-79d9-4e6a-a7d5-1e7d57e1cc36/" style="float: left;" width="45">Обычно элементы списка содержат данные одного типа, и на практике редко приходится создавать списки, содержащие элементы разных типов данных.</p>
 
 <h3 style="text-align: center;">Пустой список</h3>
 
@@ -70,8 +70,8 @@ languages = ['Python', 'C#', 'C++', 'Java']</code></pre>
 
 <p>Следующие две строки кода создают пустой список:</p>
 
-<pre><code class="language-python">mylist = []       # пустой список
-mylist = list()   # пустой список</code></pre>
+<pre><code class="language-python">mylist = []  # пустой список
+mylist = list()  # тоже пустой список</code></pre>
 
 <h3 style="text-align: center;">Вывод списка</h3>
 
@@ -87,7 +87,7 @@ print(languages)</code></pre>
 <pre><code class="language-no-highlight">[2, 4, 6, 8, 10]
 ['Python', 'C#', 'C++', 'Java']</code></pre>
 
-<p><img alt="" height="50" src="https://ucarecdn.com/fb84d0ed-79d9-4e6a-a7d5-1e7d57e1cc36/" style="float: left;" width="45">Обратите внимание, что вывод списка содержит квадратные скобки. Позже мы научимся выводить элементы списка в более удобном виде с помощью циклов.</p>
+<p><img alt="" height="50" src="https://ucarecdn.com/fb84d0ed-79d9-4e6a-a7d5-1e7d57e1cc36/" style="float: left;" width="45">Обратите внимание, что вывод списка содержит квадратные скобки. Позже мы научимся выводить элементы списка в более удобном виде с помощью циклов или с помощью распаковки.</p>
 
 <h3 style="text-align: center;">Встроенная функция list</h3>
 
@@ -110,9 +110,9 @@ print(languages)</code></pre>
 <p>Вот еще один пример:</p>
 
 <pre><code class="language-python">even_numbers = list(range(0, 10, 2))  # список содержит четные числа 0, 2, 4, 6, 8
-odd_numbers = list(range(1, 10, 2))   # список содержит нечетные числа 1, 3, 5, 7, 9</code></pre>
+odd_numbers = list(range(1, 10, 2))  # список содержит нечетные числа 1, 3, 5, 7, 9</code></pre>
 
-<p>Точно также с помощью функции <code>list()</code> мы можем создать список из символов строки.  Для преобразования строки в список мы пишем следующий код:</p>
+<p>Точно так же с помощью функции <code>list()</code> мы можем создать список из символов строки. Для преобразования строки в список мы пишем следующий код:</p>
 
 <pre><code class="language-python">s = 'abcde'
 chars = list(s)  # список содержит символы 'a', 'b', 'c', 'd', 'e'</code></pre>

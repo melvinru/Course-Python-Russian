@@ -2,7 +2,8 @@ type: code
 files:
 - name: task.py
   visible: true
-  text: '# put your python code here'
+  text: '# put your asm64 code here'
   learner_created: false
-status: Solved
+status: Unchecked
 record: -1
+submission_language: asm64

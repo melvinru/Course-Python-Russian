@@ -3,10 +3,8 @@ custom_name: Programming
 files:
 - name: task.py
   visible: true
-  text: '# put your python code here'
+  text: '# put your asm64 code here'
   learner_created: false
 status: Solved
-feedback:
-  message: <html>Correct solution</html>
-  time: "Mon, 13 Feb 2023 21:47:38 UTC"
 record: -1
+submission_language: asm64
